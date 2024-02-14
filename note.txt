@@ -1,0 +1,23 @@
+install in terminal : 
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    (then give command to activate the rustsetup like below :)
+source "$HOME/.cargo/env"
+
+cargo new hello-marco
+the use of makefile(in the makefile create in what u have create function then put
+cd foldername
+make run
+)
+
+
+code run :
+
+make lint 
+make format
+make lint
+cargo run -- --help
+cargo run -- play --name "Marco"
+
+run in other command :
+
+./target/debug/hello-marco --help
